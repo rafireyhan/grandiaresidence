@@ -8,12 +8,12 @@ window.onscroll = function() {
         header.classList.add('navbar-fixed');
         header.classList.add('text-black');
         header.classList.remove('text-white');
-        logo.src = "/public/images/logo.png";
+        logo.src = "public/images/logo.png";
     }else{
         header.classList.remove('navbar-fixed');
         header.classList.add('text-white');
         header.classList.remove('text-black');
-        logo.src = "/public/images/logo-white.png";
+        logo.src = "public/images/logo-white.png";
     }
 }
 
